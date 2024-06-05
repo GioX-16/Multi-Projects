@@ -22,7 +22,7 @@ botones.forEach(boton => {
             try {
                 pantalla.textContent = eval(pantalla.textContent);
             } catch {
-                pantalla.textContent = "Error!!"
+                pantalla.textContent = "Eso no se puede Niña Especial"
             }
             return; 
         }
